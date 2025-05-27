@@ -1,0 +1,48 @@
+.header {
+    background-color: rgb(216, 87, 87);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header li {
+    margin-right: 30px;
+}
+
+.logoutButton {
+    background-color: #ff4d4d; /* 빨간색 배경 */
+    color: white; /* 흰색 글자 */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logoutButton:hover {
+    background-color: #cc0000; /* 마우스 오버 시 더 진한 빨강 */
+}
